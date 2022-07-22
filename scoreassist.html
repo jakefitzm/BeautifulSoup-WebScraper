@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- This is the PyScript links which would be used if PyScript supported BeautifulSoup and requests-->
+        <!--<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />-->
+        <!--<script defer src="https://pyscript.net/alpha/pyscript.js"></script>-->
+        <link rel="stylesheet" href="index.css">
+        <title>World Cup Teams</title>
+    </head>
+    <body>
+        <div class="scrollmenu">
+            <a href="index.html">Home</a>
+            <a href="scoreassist.html">Goals & Assists</a>
+            <a href="groupa.html">Group A</a>
+            <a href="groupb.html">Group B</a>
+            <a href="groupc.html">Group C</a>
+            <a href="groupd.html">Group D</a>
+            <a href="groupe.html">Group E</a>
+            <a href="groupf.html">Group F</a>
+            <a href="groupg.html">Group G</a>
+            <a href="grouph.html">Group H</a>
+        </div>
+        <h1>Qatar World Cup 2022</h1>
+        <h2>A Web Scraper Made With BeautifulSoup</h2>
+        <!--due to pyscript not allowing bs4 or requests to be imported the following code does not work:
+        <py-env>
+            - bs4
+        </py-env>
+        <py-script src="./topscorers.py"></py-script> 
+       
+        Instead the Python file is run seperately every 24 hours using windows task scheduler and the html table it creates is displayed below:-->
+        <div>Top Scorers</div>
+        <a href="scorersTable.html">
+            Click Here to see the Top Scorers!
+        </a>
+        <div>Most Assists</div>
+        <a href="assistsTable.html">
+            Click Here to see the players with the Most Assists!
+        </a>
+        <img src="C:\VSCode\WebScraper\193457.jpg" class="image">
+    </body>
+</html>
